@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.App {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-right: auto;
+}
+
+button {
+  background-color: steelblue;
+  font-size: 1em;
+  color: white;
+  outline: 0;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+button:active {
+  background-color: #29587e;
+}
+
+.spinner {
+  width: 180px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.teacher-name,
+button {
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  border-radius: .3em;
+}
+
+.teacher-name {
+  color: rgba(0,0,0, 0.7);
+}
